@@ -4,7 +4,7 @@ This project uses a synthetic health dataset to predict whether an individual sm
 
 ## Dataset
 
-The dataset used in this project consists of synthetic health records provided in CSV format:
+The dataset used in this project, [which can be found here](https://www.kaggle.com/competitions/playground-series-s3e24), consists of synthetic health records provided in CSV format:
 
 - **train.csv**: The training dataset containing features and labels (smoking status).
 - **test.csv**: The test dataset for making predictions.
@@ -43,7 +43,7 @@ I used a **HistGradientBoostingClassifier** as the model and focused on optimizi
 
 5. **Final Submission**:
     - The best model was trained on the entire training data and used to predict smoking probabilities for the test dataset.
-    - My submission received a score of 0.867, which is pretty good.
+    - My submission received a Kaggle competition score of 0.867, which is pretty good considering the best submission scored 0.879. 
 
 ## Conclusion
 
